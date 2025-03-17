@@ -25,6 +25,12 @@ stage('send email notification') {
             }
         }
 */
+
+ stage('Run Application') {
+            steps {
+                sh 'java -cp target/HelloWorldApp-1.0.jar MavenProject.App'
+            }
+        }
     }
 }
 
