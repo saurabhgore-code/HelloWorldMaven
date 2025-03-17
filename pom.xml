@@ -7,7 +7,7 @@
   <version>1.0</version>
   <name>HelloWorldApp</name>
   <url>http://maven.apache.org</url>
-  <properties>
+<properties>
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
