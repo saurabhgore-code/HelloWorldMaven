@@ -2,12 +2,14 @@ pipeline
 { 
 agent any 
  stages { 
+  /*
   stage ('SCM checkout')
        {
      steps {
       sh 'git clone https://github.com/saurabhgore-code/HelloWorldMaven.git'
   }
     }
+    */
    stage('run maven project')
    { 
        steps {
